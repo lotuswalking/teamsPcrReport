@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "10.128.7.35",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "teamsPCr",
+            "database": "teamspcr",
+            "username": "dev",
+            "password": "dev"
+        }
+    ]
+}

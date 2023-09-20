@@ -1,0 +1,405 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#communications/callRecords(sessions(segments()))/$entity",
+    "id": "79740bcc-2689-4342-a293-2d0dd7b2c3e4",
+    
+    "version": 1,
+    "type": "peerToPeer",
+    "modalities": [
+        "audio"
+    ],
+    "lastModifiedDateTime": "2023-09-04T08:43:24.2976398Z",
+    "startDateTime": "2023-09-04T08:03:50.2066733Z",
+    "endDateTime": "2023-09-04T08:32:54.5442019Z",
+    "joinWebUrl": null,
+    "organizer": {
+        "acsUser": null,
+        "spoolUser": null,
+        "phone": null,
+        "guest": null,
+        "encrypted": null,
+        "onPremises": null,
+        "acsApplicationInstance": null,
+        "spoolApplicationInstance": null,
+        "applicationInstance": null,
+        "application": null,
+        "device": null,
+        "user": {
+            "id": "f036ff47-2db1-4cc4-b053-1a3f06daee50",
+            "displayName": "Hiroyuki 1 Yamamoto",
+            "tenantId": "5c7d0b28-bdf8-410c-aa93-4df372b16203"
+        }
+    },
+    "participants": [
+        {
+            "acsUser": null,
+            "spoolUser": null,
+            "phone": null,
+            "guest": null,
+            "encrypted": null,
+            "onPremises": null,
+            "acsApplicationInstance": null,
+            "spoolApplicationInstance": null,
+            "applicationInstance": null,
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "f036ff47-2db1-4cc4-b053-1a3f06daee50",
+                "displayName": "Hiroyuki 1 Yamamoto",
+                "tenantId": "5c7d0b28-bdf8-410c-aa93-4df372b16203"
+            }
+        },
+        {
+            "acsUser": null,
+            "spoolUser": null,
+            "phone": null,
+            "guest": null,
+            "encrypted": null,
+            "onPremises": null,
+            "acsApplicationInstance": null,
+            "spoolApplicationInstance": null,
+            "applicationInstance": null,
+            "application": null,
+            "device": null,
+            "user": {
+                "id": "c6ac598e-8cbb-4831-a4da-62696edd2ae9",
+                "displayName": "Akira Tanamura",
+                "tenantId": "5c7d0b28-bdf8-410c-aa93-4df372b16203"
+            }
+        }
+    ],
+    "sessions@odata.context": "https://graph.microsoft.com/v1.0/$metadata#communications/callRecords('79740bcc-2689-4342-a293-2d0dd7b2c3e4')/sessions(segments())",
+    "sessions": [
+        {
+            "id": "79740bcc-2689-4342-a293-2d0dd7b2c3e4",
+            "modalities": [
+                "audio"
+            ],
+            "startDateTime": "2023-09-04T08:03:50.2066733Z",
+            "endDateTime": "2023-09-04T08:32:54.5442019Z",
+            "isTest": false,
+            "failureInfo": null,
+            "caller": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "JL07779-F1G0GXZ",
+                "cpuName": "Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz",
+                "cpuCoresCount": 4,
+                "cpuProcessorSpeedInMhz": 1900,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": "CallSignalingAgent (27/1.6.00.22378//;release_verif_delivery/onthefly/ryturn/20230622T224410Z/20230623T022744Z.2023.25.01.11;releases/CL2023.R25)",
+                    "applicationVersion": null,
+                    "platform": "windows",
+                    "productFamily": "teams",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "f036ff47-2db1-4cc4-b053-1a3f06daee50",
+                        "displayName": "Hiroyuki 1 Yamamoto",
+                        "tenantId": "5c7d0b28-bdf8-410c-aa93-4df372b16203"
+                    }
+                }
+            },
+            "callee": {
+                "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                "name": "TANAMURAA-Y56H3",
+                "cpuName": "12th Gen Intel(R) Core(TM) i5-1245U",
+                "cpuCoresCount": 10,
+                "cpuProcessorSpeedInMhz": 1200,
+                "feedback": null,
+                "userAgent": {
+                    "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                    "headerValue": "CallSignalingAgent (27/1.6.00.22378//;release_verif_delivery/onthefly/ryturn/20230622T224410Z/20230623T022744Z.2023.25.01.11;releases/CL2023.R25)",
+                    "applicationVersion": null,
+                    "platform": "windows",
+                    "productFamily": "teams",
+                    "communicationServiceId": null,
+                    "azureADAppId": null
+                },
+                "identity": {
+                    "acsUser": null,
+                    "spoolUser": null,
+                    "phone": null,
+                    "guest": null,
+                    "encrypted": null,
+                    "onPremises": null,
+                    "acsApplicationInstance": null,
+                    "spoolApplicationInstance": null,
+                    "applicationInstance": null,
+                    "application": null,
+                    "device": null,
+                    "user": {
+                        "id": "c6ac598e-8cbb-4831-a4da-62696edd2ae9",
+                        "displayName": "Akira Tanamura",
+                        "tenantId": "5c7d0b28-bdf8-410c-aa93-4df372b16203"
+                    }
+                }
+            },
+            "segments@odata.context": "https://graph.microsoft.com/v1.0/$metadata#communications/callRecords('79740bcc-2689-4342-a293-2d0dd7b2c3e4')/sessions('79740bcc-2689-4342-a293-2d0dd7b2c3e4')/segments",
+            "segments": [
+                {
+                    "id": "79740bcc-2689-4342-a293-2d0dd7b2c3e4",
+                    "startDateTime": "2023-09-04T08:03:50.2066733Z",
+                    "endDateTime": "2023-09-04T08:32:54.5442019Z",
+                    "failureInfo": null,
+                    "caller": {
+                        "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                        "name": "JL07779-F1G0GXZ",
+                        "cpuName": "Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz",
+                        "cpuCoresCount": 4,
+                        "cpuProcessorSpeedInMhz": 1900,
+                        "feedback": null,
+                        "userAgent": {
+                            "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                            "headerValue": "CallSignalingAgent (27/1.6.00.22378//;release_verif_delivery/onthefly/ryturn/20230622T224410Z/20230623T022744Z.2023.25.01.11;releases/CL2023.R25)",
+                            "applicationVersion": null,
+                            "platform": "windows",
+                            "productFamily": "teams",
+                            "communicationServiceId": null,
+                            "azureADAppId": null
+                        },
+                        "identity": {
+                            "acsUser": null,
+                            "spoolUser": null,
+                            "phone": null,
+                            "guest": null,
+                            "encrypted": null,
+                            "onPremises": null,
+                            "acsApplicationInstance": null,
+                            "spoolApplicationInstance": null,
+                            "applicationInstance": null,
+                            "application": null,
+                            "device": null,
+                            "user": {
+                                "id": "f036ff47-2db1-4cc4-b053-1a3f06daee50",
+                                "displayName": "Hiroyuki 1 Yamamoto",
+                                "tenantId": "5c7d0b28-bdf8-410c-aa93-4df372b16203"
+                            }
+                        }
+                    },
+                    "callee": {
+                        "@odata.type": "#microsoft.graph.callRecords.participantEndpoint",
+                        "name": "TANAMURAA-Y56H3",
+                        "cpuName": "12th Gen Intel(R) Core(TM) i5-1245U",
+                        "cpuCoresCount": 10,
+                        "cpuProcessorSpeedInMhz": 1200,
+                        "feedback": null,
+                        "userAgent": {
+                            "@odata.type": "#microsoft.graph.callRecords.clientUserAgent",
+                            "headerValue": "CallSignalingAgent (27/1.6.00.22378//;release_verif_delivery/onthefly/ryturn/20230622T224410Z/20230623T022744Z.2023.25.01.11;releases/CL2023.R25)",
+                            "applicationVersion": null,
+                            "platform": "windows",
+                            "productFamily": "teams",
+                            "communicationServiceId": null,
+                            "azureADAppId": null
+                        },
+                        "identity": {
+                            "acsUser": null,
+                            "spoolUser": null,
+                            "phone": null,
+                            "guest": null,
+                            "encrypted": null,
+                            "onPremises": null,
+                            "acsApplicationInstance": null,
+                            "spoolApplicationInstance": null,
+                            "applicationInstance": null,
+                            "application": null,
+                            "device": null,
+                            "user": {
+                                "id": "c6ac598e-8cbb-4831-a4da-62696edd2ae9",
+                                "displayName": "Akira Tanamura",
+                                "tenantId": "5c7d0b28-bdf8-410c-aa93-4df372b16203"
+                            }
+                        }
+                    },
+                    "media": [
+                        {
+                            "label": "main-audio",
+                            "callerNetwork": {
+                                "ipAddress": "192.168.0.28",
+                                "subnet": "192.168.0.0",
+                                "linkSpeed": 216000000,
+                                "connectionType": "wifi",
+                                "port": 50014,
+                                "reflexiveIPAddress": "110.130.21.1",
+                                "relayIPAddress": "52.113.10.84",
+                                "relayPort": 56305,
+                                "macAddress": "dc:fb:48:27:7a:63",
+                                "wifiMicrosoftDriver": "",
+                                "wifiMicrosoftDriverVersion": "Microsoft:10.0.19041.1",
+                                "wifiVendorDriver": "Intel(R) Wireless-AC 9560 160MHz",
+                                "wifiVendorDriverVersion": "Intel:22.200.2.1",
+                                "wifiChannel": 136,
+                                "wifiBand": "frequency50GHz",
+                                "basicServiceSetIdentifier": "94:09:37:81:4c:59",
+                                "wifiRadioType": "wifi80211ac",
+                                "wifiSignalStrength": 58,
+                                "wifiBatteryCharge": 100,
+                                "dnsSuffix": "yamat1.kn.home.ne.jp",
+                                "sentQualityEventRatio": 0,
+                                "receivedQualityEventRatio": 0,
+                                "delayEventRatio": null,
+                                "bandwidthLowEventRatio": null,
+                                "networkTransportProtocol": "udp",
+                                "traceRouteHops": []
+                            },
+                            "calleeNetwork": {
+                                "ipAddress": "10.131.169.83",
+                                "subnet": "10.131.168.0",
+                                "linkSpeed": 287000000,
+                                "connectionType": "wifi",
+                                "port": 50000,
+                                "reflexiveIPAddress": "27.110.1.10",
+                                "relayIPAddress": "52.115.241.41",
+                                "relayPort": 3479,
+                                "macAddress": "8c:f8:c5:fe:03:ee",
+                                "wifiMicrosoftDriver": "",
+                                "wifiMicrosoftDriverVersion": "Microsoft:10.0.22621.1",
+                                "wifiVendorDriver": "Intel(R) Wi-Fi 6E AX211 160MHz",
+                                "wifiVendorDriverVersion": "Intel:22.200.2.1",
+                                "wifiChannel": 124,
+                                "wifiBand": "frequency50GHz",
+                                "basicServiceSetIdentifier": "a8:5b:f7:04:25:e0",
+                                "wifiRadioType": "unknown",
+                                "wifiSignalStrength": 92,
+                                "wifiBatteryCharge": 79,
+                                "dnsSuffix": "lenovo.com",
+                                "sentQualityEventRatio": 0,
+                                "receivedQualityEventRatio": 0,
+                                "delayEventRatio": null,
+                                "bandwidthLowEventRatio": null,
+                                "networkTransportProtocol": "udp",
+                                "traceRouteHops": []
+                            },
+                            "callerDevice": {
+                                "captureDeviceName": "\u30a4\u30f3\u30c6\u30eb\u00ae \u30b9\u30de\u30fc\u30c8\u30fb\u30b5\u30a6\u30f3\u30c9\u30fb\u30c6\u30af\u30ce\u30ed\u30b8\u30fc",
+                                "captureDeviceDriver": "Intel(R) Corporation: 10.23.0.4880",
+                                "renderDeviceName": "Realtek(R) Audio",
+                                "renderDeviceDriver": "Realtek Semiconductor Corp.: 6.0.9354.1",
+                                "sentSignalLevel": -14,
+                                "receivedSignalLevel": -25,
+                                "sentNoiseLevel": -84,
+                                "receivedNoiseLevel": -77,
+                                "initialSignalLevelRootMeanSquare": null,
+                                "cpuInsufficentEventRatio": 0,
+                                "renderNotFunctioningEventRatio": 0,
+                                "captureNotFunctioningEventRatio": 0,
+                                "deviceGlitchEventRatio": 0,
+                                "lowSpeechToNoiseEventRatio": 0,
+                                "lowSpeechLevelEventRatio": 0,
+                                "deviceClippingEventRatio": 0,
+                                "howlingEventCount": 0,
+                                "renderZeroVolumeEventRatio": 0,
+                                "renderMuteEventRatio": 0,
+                                "micGlitchRate": null,
+                                "speakerGlitchRate": null
+                            },
+                            "calleeDevice": {
+                                "captureDeviceName": "Jabra UC VOICE 150a MS",
+                                "captureDeviceDriver": "Microsoft: 10.0.22621.1992",
+                                "renderDeviceName": "Jabra UC VOICE 150a MS",
+                                "renderDeviceDriver": "Microsoft: 10.0.22621.1992",
+                                "sentSignalLevel": -24,
+                                "receivedSignalLevel": -14,
+                                "sentNoiseLevel": -81,
+                                "receivedNoiseLevel": -84,
+                                "initialSignalLevelRootMeanSquare": null,
+                                "cpuInsufficentEventRatio": 0,
+                                "renderNotFunctioningEventRatio": 0,
+                                "captureNotFunctioningEventRatio": 0,
+                                "deviceGlitchEventRatio": 0,
+                                "lowSpeechToNoiseEventRatio": 0,
+                                "lowSpeechLevelEventRatio": 0,
+                                "deviceClippingEventRatio": 0,
+                                "howlingEventCount": 0,
+                                "renderZeroVolumeEventRatio": 0,
+                                "renderMuteEventRatio": 0,
+                                "micGlitchRate": null,
+                                "speakerGlitchRate": null
+                            },
+                            "streams": [
+                                {
+                                    "streamId": "35131",
+                                    "startDateTime": null,
+                                    "endDateTime": null,
+                                    "streamDirection": "callerToCallee",
+                                    "averageAudioDegradation": null,
+                                    "averageJitter": "PT0.005S",
+                                    "maxJitter": "PT0.019S",
+                                    "averagePacketLossRate": 8E-05,
+                                    "maxPacketLossRate": 0.007299,
+                                    "averageRatioOfConcealedSamples": 0.004228,
+                                    "maxRatioOfConcealedSamples": 0.041958,
+                                    "averageRoundTripTime": "PT0.308S",
+                                    "maxRoundTripTime": "PT0.493S",
+                                    "packetUtilization": 87169,
+                                    "averageBandwidthEstimate": 1799999,
+                                    "wasMediaBypassed": null,
+                                    "postForwardErrorCorrectionPacketLossRate": null,
+                                    "averageVideoFrameLossPercentage": null,
+                                    "averageReceivedFrameRate": null,
+                                    "lowFrameRateRatio": null,
+                                    "averageVideoPacketLossRate": null,
+                                    "averageVideoFrameRate": null,
+                                    "lowVideoProcessingCapabilityRatio": null,
+                                    "averageAudioNetworkJitter": "PT0.025S",
+                                    "maxAudioNetworkJitter": "PT0.376S",
+                                    "audioCodec": "satin",
+                                    "videoCodec": "unknown",
+                                    "rmsFreezeDuration": null,
+                                    "averageFreezeDuration": null,
+                                    "isAudioForwardErrorCorrectionUsed": false
+                                },
+                                {
+                                    "streamId": "35531",
+                                    "startDateTime": null,
+                                    "endDateTime": null,
+                                    "streamDirection": "calleeToCaller",
+                                    "averageAudioDegradation": null,
+                                    "averageJitter": "PT0.003S",
+                                    "maxJitter": "PT0.025S",
+                                    "averagePacketLossRate": 0.001481,
+                                    "maxPacketLossRate": 0.115942,
+                                    "averageRatioOfConcealedSamples": 0.004006,
+                                    "maxRatioOfConcealedSamples": 0.053946,
+                                    "averageRoundTripTime": "PT0.309S",
+                                    "maxRoundTripTime": "PT0.492S",
+                                    "packetUtilization": 87048,
+                                    "averageBandwidthEstimate": 1757908,
+                                    "wasMediaBypassed": null,
+                                    "postForwardErrorCorrectionPacketLossRate": null,
+                                    "averageVideoFrameLossPercentage": null,
+                                    "averageReceivedFrameRate": null,
+                                    "lowFrameRateRatio": null,
+                                    "averageVideoPacketLossRate": null,
+                                    "averageVideoFrameRate": null,
+                                    "lowVideoProcessingCapabilityRatio": null,
+                                    "averageAudioNetworkJitter": "PT0.014S",
+                                    "maxAudioNetworkJitter": "PT0.351S",
+                                    "audioCodec": "satin",
+                                    "videoCodec": "unknown",
+                                    "rmsFreezeDuration": null,
+                                    "averageFreezeDuration": null,
+                                    "isAudioForwardErrorCorrectionUsed": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
