@@ -17,7 +17,7 @@ def newSql(month='2023-05'):
             file.write(newData);
 
 
-# newSql("2023-04") #四月network表没有数据
+
 newSql("2023-05")
 newSql("2023-06")
 newSql("2023-07")
